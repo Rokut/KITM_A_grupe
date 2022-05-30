@@ -1,0 +1,15 @@
+footer {
+    background-color: rgb(60, 84, 154);
+    color: rgb(255, 253, 255)
+}
+
+footer h2 {
+    text-transform: uppercase;
+}
+
+footer hr {
+    background-color: rgb(39, 59, 110);
+    color: rgb(39, 59, 110);
+    width: 4rem;
+    border: 2px solid rgb(39, 59, 110);
+}
