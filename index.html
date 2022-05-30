@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agrupe</title>
     <link rel="stylesheet" href="style.css">
-    <link rel=”stylesheet” href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” crossorigin=”anonymous”>
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    < <!-- Rokas comment -->
-    <h1>sveiki</h1>
-    < <!-- Rokas comment -->
-    < <!-- Giedrius comment -->
-    < <!-- Tauras comment -->
-    <h1>sveiki - testuoju komandas</h1>
-    < <!-- Giedrius comment -->
-
-    <h3>Sveiki, susikūriau šaką</h3>
-    <!-- Roberta comment -->
-
-    <h3>Dar viena atsaka</h3>
-    <!-- Tauras new comment -->
-
-
+    <footer>
+        <div class="text-center py-5">
+            <h2>Get in touch</h2>
+            <hr class="m-auto mb-4">
+            <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+        </div>
+        <form class="container">
+            <div class="row mb-5 g-3">
+                <div class="form-floating col-sm-6">
+                    <input class="form-control rounded-1 ps-3" id="name" type="email" placeholder="Your Name" />
+                    <label for="name" class="ps-5">Your Name <span class="text-danger">*</span></label>
+                </div>
+                <div class="form-floating col-sm-6">
+                    <input class="form-control rounded-1 ps-3" id="email" type="email" placeholder="Your Email" />
+                    <label for="email" class="ps-5">Your Email <span class="text-danger">*</span></label>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="form-floating col-sm-12">
+                    <textarea class="form-control rounded-1 ps-3" placeholder="Your Message" id="message"></textarea>
+                    <label for="message" class="ps-5">Your Message</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <button type="submit" class="btn py-3 rounded-1">Send message</button>
+                </div>
+            </div>
+        </form>
+    </footer>
 </body>
+
 </html>
