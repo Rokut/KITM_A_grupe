@@ -1,54 +1,37 @@
-footer {
-    background-color: rgb(60, 84, 154);
-    color: rgb(255, 253, 255)
-}
+body {
+    height: 100vh;
+    background-color:#e7f1f8;
+    align-content: center;
+  }
+  
+  hr {
+    margin-left: 47%;
+    width: 6%;
+    align-items: center;
+    border: 2px solid rgb(144, 140, 140);
+  }
+  .container{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    
+  }
+  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .grey{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
 
-footer h2 {
-    text-transform: uppercase;
-}
+  a{
+    text-decoration: none;
+  }
 
-footer hr {
-    background-color: rgb(39, 59, 110);
-    color: rgb(39, 59, 110);
-    width: 4rem;
-    border: 2px solid rgb(39, 59, 110);
-}
-
-footer form {
-    width: 50%!important;
-}
-
-footer .container .row div input,
-footer .container .row div textarea {
-    background-color: rgb(39, 59, 110);
-    color: rgb(255, 253, 255);
-    border: 0;
-}
-
-footer .container .row div textarea {
-    min-height: calc(13.5em + 0.75rem + 2px);
-}
-
-footer .container .row div label {
-    color: rgb(255, 253, 255);
-}
-
-footer .container .row div button {
-    border: 0;
-    padding-left: 4.4rem;
-    padding-right: 4.4rem;
-    color: rgb(255, 253, 255);
-    text-transform: uppercase;
-    background-color: rgb(48, 186, 232);
-    box-shadow: 0 3px rgb(40, 158, 194);
-}
-
-footer .container .row div button:active {
-    box-shadow: 0 3px rgb(40, 158, 194);
-}
-
-@media only screen and (max-width: 768px) {
-    footer form {
-      width: 100%!important;
-    }
+  h6{
+    color: rgb(73, 196, 238);
   }
