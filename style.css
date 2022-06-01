@@ -88,3 +88,35 @@ footer nav a:hover {
     font-weight: 400!important;
 }
 /* Footer(F8) End */
+
+/*Services*/
+#services {
+    padding-bottom: 100px;
+    background: #17C2A4;
+}
+
+.services_h2 {
+    margin-top: 110px;
+    color: #FFF;
+}
+
+.service_line {
+    background: #15AA90;
+}
+
+.iconbox_title {
+    margin: 20px 0 10px;
+    color: #FFF;
+}
+
+.iconbox_desk {
+    margin: 0px 20px 15px;
+    color: #FFF;
+}
+
+.services_subtitle {
+    margin-bottom: 60px;
+    color: #FFF;
+}
+
+/*Services end*/
