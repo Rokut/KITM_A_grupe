@@ -1,3 +1,4 @@
+/* Footer(F8) Start */
 footer {
     background-color: rgb(60, 84, 154);
     color: rgb(255, 253, 255)
@@ -5,13 +6,16 @@ footer {
 
 footer h2 {
     text-transform: uppercase;
+    letter-spacing: .2rem;
+    word-spacing: .2rem;
 }
 
 footer hr {
     background-color: rgb(39, 59, 110);
     color: rgb(39, 59, 110);
-    width: 4rem;
+    width: 5rem;
     border: 2px solid rgb(39, 59, 110);
+    opacity: 1;
 }
 
 footer form {
@@ -26,7 +30,7 @@ footer .container .row div textarea {
 }
 
 footer .container .row div textarea {
-    min-height: calc(13.5em + 0.75rem + 2px);
+    min-height: calc(12.5em + 0.75rem + 2px);
 }
 
 footer .container .row div label {
@@ -51,4 +55,36 @@ footer .container .row div button:active {
     footer form {
       width: 100%!important;
     }
-  }
+}
+
+#footer-navigation {
+    background-color: rgb(52, 75, 142);
+}
+
+footer nav a {
+    color: rgb(255, 253, 255)!important;
+}
+
+footer nav {
+    width: 60%;
+}
+
+footer nav a:hover {
+    color: rgb(52, 182, 228)!important;
+}
+
+.titillium-bold {
+    font-family: 'Titillium Web', sans-serif!important;
+    font-weight: 700!important;
+}
+
+.titillium-semi-bold {
+    font-family: 'Titillium Web', sans-serif!important;
+    font-weight: 600!important;
+}
+
+.titillium-regular {
+    font-family: 'Titillium Web', sans-serif!important;
+    font-weight: 400!important;
+}
+/* Footer(F8) End */
