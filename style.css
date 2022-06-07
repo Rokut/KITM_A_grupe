@@ -1,3 +1,44 @@
+/*Navbar Starts*/
+.navbar {
+    background-color: #87509C;
+}
+.navbar .container img{
+    width: 15%;
+}
+.navbar .nav-item {
+    text-transform: uppercase;
+    color: white;
+}
+/*Navbar Ends*/
+/*FR2 Starts*/
+section{
+    background-color: #87509C;
+}
+section div div div div{
+    padding-top: 8rem;
+    color: white;
+}
+section div div div div h1{
+    font-size: 42px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-family: Titillium Web;
+    font-weight: 800;
+}
+section div div div div button{
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+section div div div div .btn{
+    background-color: #eb7d4b;
+    color: white;
+    padding: 25px 0;
+    width: 295px;
+    font-size: 18px;
+    border-bottom: 4px solid #c86a40;
+}
+/*FR2 Ends*/
 /* Footer(F8) Start */
 .footer {
     background-color: rgb(60, 84, 154);
