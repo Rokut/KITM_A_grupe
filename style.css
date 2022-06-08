@@ -1,37 +1,43 @@
-body {
+ body {
     height: 100vh;
-    background-color:#e7f1f8;
+    background-color: rgb(232, 234, 252);
     align-content: center;
   }
   
-  hr {
+  main .under {
     margin-left: 47%;
     width: 6%;
     align-items: center;
     border: 2px solid rgb(144, 140, 140);
   }
-  .container{
+  main .container{
     margin-top: 5rem;
     padding-bottom: 5rem;
     
   }
-  img{
+  main img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
   }
-  .grey{
+  main .grey{
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     width: 250px;
     height: 250px;
     border-radius: 50%;
   }
 
-  a{
+  main a{
     text-decoration: none;
   }
 
-  h6{
+  main h6{
     color: rgb(73, 196, 238);
   }
+
+  main p{
+    padding-top: 9px;
+  }
+
+  
