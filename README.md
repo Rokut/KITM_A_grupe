@@ -1,2 +1,2 @@
 # KITM_A_grupe
-KITM A pirmas projektas
+TIKRINTI KODĄ SU VALIDATOR PRIEŠ push'inant!!
