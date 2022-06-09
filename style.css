@@ -1,3 +1,15 @@
+#reviews hr {
+    background-color: rgb(181, 61, 109);
+    color: rgb(181, 61, 109);
+    width: 5rem;
+    border: 2px solid rgb(181, 61, 109);
+    opacity: 1;
+}
+
+#reviews {
+    background-color: rgb(215, 70, 129);
+}
+
 /* Footer(F8) Start */
 .footer {
     background-color: rgb(60, 84, 154);
