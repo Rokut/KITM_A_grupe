@@ -1,16 +1,28 @@
+#reviews hr {
+    background-color: rgb(181, 61, 109);
+    color: rgb(181, 61, 109);
+    width: 5rem;
+    border: 2px solid rgb(181, 61, 109);
+    opacity: 1;
+}
+
+#reviews {
+    background-color: rgb(215, 70, 129);
+}
+
 /* Footer(F8) Start */
-footer {
+.footer {
     background-color: rgb(60, 84, 154);
     color: rgb(255, 253, 255)
 }
 
-footer h2 {
+.footer h2 {
     text-transform: uppercase;
     letter-spacing: .2rem;
     word-spacing: .2rem;
 }
 
-footer hr {
+.footer hr {
     background-color: rgb(39, 59, 110);
     color: rgb(39, 59, 110);
     width: 5rem;
@@ -18,26 +30,26 @@ footer hr {
     opacity: 1;
 }
 
-footer form {
+.footer form {
     width: 50%!important;
 }
 
-footer .container .row div input,
-footer .container .row div textarea {
+.footer .container .row div input,
+.footer .container .row div textarea {
     background-color: rgb(39, 59, 110);
     color: rgb(255, 253, 255);
     border: 0;
 }
 
-footer .container .row div textarea {
+.footer .container .row div textarea {
     min-height: calc(12.5em + 0.75rem + 2px);
 }
 
-footer .container .row div label {
+.footer .container .row div label {
     color: rgb(255, 253, 255);
 }
 
-footer .container .row div button {
+.footer .container .row div button {
     border: 0;
     padding-left: 4.4rem;
     padding-right: 4.4rem;
@@ -47,12 +59,12 @@ footer .container .row div button {
     box-shadow: 0 3px rgb(40, 158, 194);
 }
 
-footer .container .row div button:active {
+.footer .container .row div button:active {
     box-shadow: 0 3px rgb(40, 158, 194);
 }
 
 @media only screen and (max-width: 768px) {
-    footer form {
+    .footer form {
       width: 100%!important;
     }
 }
@@ -89,7 +101,7 @@ footer nav a:hover {
 }
 /* Footer(F8) End */
 
-/*Services*/
+/* Services <!-- FR3 Start Arnestas--> */
 #services {
     padding-bottom: 100px;
     background: #17C2A4;
@@ -119,4 +131,4 @@ footer nav a:hover {
     color: #FFF;
 }
 
-/*Services end*/
+/* Services end <!-- FR3 End Arnestas--> */
