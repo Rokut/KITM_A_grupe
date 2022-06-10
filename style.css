@@ -1,0 +1,90 @@
+/* Robertos CSS pradžia */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafbfc;;
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    color: rgb(78, 76, 76);
+    color: #172b4d;
+    align-items: center;
+}
+
+.progress-bar{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    outline: 1px solid rgba(34, 33, 36, 0.5);
+    outline-offset: -1px;
+}
+
+
+.progress-bar::after,
+.numberOne
+.numberTwo{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.progress-bar::after {
+    content: '';
+    width: 110px;
+    height: 110px;
+    border-radius: inherit;
+    outline: inherit;
+}
+
+.numberOne {
+    font-size: 35px;
+    font-weight: #172b4d;
+}
+.numberTwo {
+    font-size: 35px;
+    font-weight: #172b4d;
+}
+
+.numberThree {
+    font-size: 35px;
+    font-weight: #172b4d;
+}
+
+.numberFour {
+    font-size: 35px;
+    font-weight: #172b4d;
+}
+
+.text{
+    font-weight: 800;
+    font-size: 600;
+    font-weight: 400;
+    color: #172b4d;
+    text-align: justify;
+}
+
+.circle {
+    stroke-dasharray: 410;
+    stroke-dashoffset: 410;
+    transform: rotate(-90deg);
+    animation: bar-fill 8s linear forwards;
+}
+
+@keyframes bar-fill {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* Roberta - pabaiga */
+
