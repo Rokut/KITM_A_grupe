@@ -1,5 +1,5 @@
 /* Robertos CSS pradžia */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family:"Roboto", sans-serif;
     background-color: #fafbfc;;
     display: flex;
     flex-direction: row;
@@ -18,8 +18,10 @@ body {
     align-items: center;
 }
 
+
 .progress-bar{
     position: relative;
+    display: flex;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -27,10 +29,11 @@ body {
     outline-offset: -1px;
 }
 
-
 .progress-bar::after,
 .numberOne
-.numberTwo{
+.numberTwo
+.numberThree
+.numberFour{
     position:absolute;
     top: 50%;
     left: 50%;
@@ -67,10 +70,9 @@ body {
 
 .text{
     font-weight: 800;
-    font-size: 600;
-    font-weight: 400;
+    font-weight: 800;
     color: #172b4d;
-    text-align: justify;
+    text-align: center;
 }
 
 .circle {
@@ -85,6 +87,7 @@ body {
         stroke-dashoffset: 0;
     }
 }
+
 
 /* Roberta - pabaiga */
 

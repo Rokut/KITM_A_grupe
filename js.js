@@ -19,4 +19,26 @@ setInterval(() => {
         percentageNumber.innerHTML = `${counterTwo}%`;
     }
 }, 75);
+
+let counterThree = 0;
+setInterval(() => {
+const percentageNumber = document.querySelector('.numberThree');
+const percentageNumberValue = Number(percentageNumber.getAttribute('data-value'));
+    if (counterThree !== percentageNumberValue) {
+        counterThree++;
+        percentageNumber.innerHTML = `${counterThree}%`;
+         }
+}, 70);
+
+let counterFour = 0;
+setInterval(() => {
+const percentageNumber = document.querySelector('.numberFour');
+const percentageNumberValue = Number(percentageNumber.getAttribute('data-value'));
+    if (counterFour !== percentageNumberValue) {
+        counterFour++;
+        percentageNumber.innerHTML = `${counterFour}%`;
+          }
+},85);
+
+
 // Roberta - pabaiga
