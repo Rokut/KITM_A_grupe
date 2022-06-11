@@ -124,7 +124,7 @@
 }
 
 
-@property <--num> {
+@property --num {
     
     syntax: "<integer>";
     initial-value: 0;
@@ -133,7 +133,7 @@
   }
   
   .nr1 {
-    font-family: 'Titillium Web', sans-serif!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: --num 5s;
     counter-set: num var(--num);
     font-size: 41px;
