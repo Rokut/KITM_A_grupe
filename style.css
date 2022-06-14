@@ -266,21 +266,21 @@
 /* <!-- FR5 End Roberta--> */
 /* <!--FR6 Start Giedrius--> */
 #portfolio {
-    background: #FFDD99;
+    background: rgb(255, 221, 153);
 }
 
 .portfolio_h2 {
     letter-spacing: .2rem;
     word-spacing: 0.2rem;
-    color: #393939;
+    color: rgb(57, 57, 57);
 }
 
 .portfolio_line {
-    background: #E5C37F;
-    width: 85px;
-    height: 4px;
-    margin: 20px auto;
-    border: none!important;
+    background-color: rgb(229, 195, 127);
+    color: rgb(229, 195, 127);
+    width: 5rem;
+    border: 2px solid rgb(229, 195, 127);
+    opacity: 1;
 }
 
 .portfolio_subtitle {
@@ -290,7 +290,7 @@
 
 .port_btn {
     font-size: 0.7em;
-    text-align: justify-center;
+    text-align: center;
     width: 70px;
     height: 35px;
     background: #EBC985;
@@ -327,7 +327,6 @@
     background: #139c84;
     color: #0a6564;
 }
-
 /*<!--FR6 End Giedrius-->*/
 
 #reviews hr {
