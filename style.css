@@ -90,76 +90,27 @@
 #team h6{
     color: rgb(73, 196, 238);
 }
-
 /* <!-- FR4 End Raminta--> */
 /* <!-- FR5 Start Roberta--> */
-#skills {
-    background: #fff;
-    padding-top: 7%;  
-    padding-bottom: 6%;   
+.skills-h2 {       
+    color: rgb(23, 43, 77);
+    letter-spacing: .2rem;
+    word-spacing: .2rem;
 }
 
-.skills2{       
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 2%;
-    color: #172b4d;  
+.line {
+    background-color: rgb(221, 232, 236);
+    color: rgb(221, 232, 236);
+    width: 5rem;
+    border: 2px solid rgb(221, 232, 236);
+    opacity: 1;
 }
 
-.line{
-    margin-left: 46%;
-    width: 10%;
-    align-items: center;
-    border: 2px solid rgba(128, 126, 126, 0.877);
+.skill-label {  
+    color: rgb(23, 43, 77);
 }
 
-.Description{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-bottom: 5%;
-    text-align: center;
-    font-size: 25px;  
-	color: #172b4d;
-	font-weight: 400;    
-    
-}
-.name1{  
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;                   
-    text-indent: 15mm; 
-    margin-top: 0.5cm;
-    font-weight: bold;
-    color: #172b4d;
-
-    
-}
-.name2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;                   
-    text-indent: 20mm; 
-    margin-top: 0.5cm;
-    font-weight: bold;
-    color: #172b4d; 
-}
-.name3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;                   
-    text-indent: 10mm; 
-    margin-top: 0.5cm;
-    font-weight: bold;
-    color: #172b4d; 
-}
-.name4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;                   
-    text-indent: 29mm; 
-    margin-top: 0.5cm;
-    font-weight: bold;
-    color: #172b4d;
-} 
-
-.progress-bar{
+.progress-bar {
     background-color: #e4f0f6;  
     position: relative;
     width: 150px;
@@ -168,7 +119,8 @@
     left: 2cm;
     
 }
-.inner-circle{
+
+.inner-circle {
    
     width: 120px;
     height: 120px;
@@ -181,22 +133,22 @@
     justify-content: center;
     align-items:center;
     color: #172b4d;
-    
-    
 }
-.spa{
+
+.spa {
     font-family: 'Titillium Web', sans-serif!important;
     height: 20px;
     font-size: 21px;
 
 }
+
 .circle {
-    
     stroke-dasharray: 410;
     stroke-dashoffset: 410;
     transform: rotate(-90deg);
     animation: bar-fill 8s linear forwards; 
 }
+
 .circle1 {
     stroke-dasharray: 410;
     stroke-dashoffset: 410;
@@ -204,12 +156,14 @@
     animation: bar-fill1 8s linear forwards;  
     
 }
+
 .circle2 {
     stroke-dasharray: 410;
     stroke-dashoffset: 410;
     transform: rotate(-90deg);
     animation: bar-fill2 8s linear forwards;  
 }
+
 .circle3 {    
     stroke-dasharray: 410;
     stroke-dashoffset: 410;
@@ -217,77 +171,80 @@
     animation: bar-fill3 8s linear forwards;  
 }
 
-
 @property --num {
     
     syntax: "<integer>";
     initial-value: 0;
     inherits: false;
     
-  }
+}
   
-  .nr1 {
+.nr1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: --num 5s;
     counter-set: num var(--num);
     font-size: 41px;
     color: #172b4d;
-  }
-  .nr1::after {
+}
+
+.nr1::after {
     content: counter(num);
-  }
-  .nr1:hover {      
-    
+}
+
+.nr1:hover {        
     --num: 90;
-  }
+}
 
-
-
-  .nr2 {
+.nr2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: --num 5s;
     counter-set: num var(--num);
     font-size: 41px;
     color: #172b4d;
-  }
-  .nr2::after {
+}
+
+.nr2::after {
     content: counter(num);
-  }
-  .nr2:hover {
+}
+
+.nr2:hover {
     --num: 75;
-  }
+}
 
-  .nr3 {
+.nr3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: --num 5s;
     counter-set: num var(--num);
     font-size: 41px;
     color: #172b4d;
-  }
-  .nr3::after {
+}
+  
+.nr3::after {
     content: counter(num);
-  }
-  .nr3:hover {
+}
+  
+.nr3:hover {
     --num: 70;
-  }
-  .nr4 {
+}
+
+.nr4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: --num 5s;
     counter-set: num var(--num);
     font-size: 41px;
     color: #172b4d;
-  }
-  .nr4::after {
-    content: counter(num);
-  }
-  .nr4:hover {
-    --num: 85;
-  }
+}
 
+.nr4::after {
+    content: counter(num);
+}
+
+.nr4:hover {
+    --num: 85;
+}
 
 @keyframes bar-fill {
     100% {
-        
         stroke-dashoffset: 41;
     }
 }
@@ -306,7 +263,6 @@
         stroke-dashoffset: 61.5;
     }
 }
-
 /* <!-- FR5 End Roberta--> */
 /* <!--FR6 Start Giedrius--> */
 #portfolio {
