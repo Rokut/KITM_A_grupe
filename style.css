@@ -331,6 +331,71 @@
 }
 
 /* <!-- FR5 End Roberta--> */
+/* <!--FR6 Start Giedrius--> */
+#portfolio {
+    background: #FFDD99;
+}
+
+.portfolio_h2 {
+    letter-spacing: .2rem;
+    word-spacing: 0.2rem;
+    color: #393939;
+}
+
+.portfolio_line {
+    background: #E5C37F;
+    width: 85px;
+    height: 4px;
+    margin: 20px auto;
+    border: none!important;
+}
+
+.portfolio_subtitle {
+    font-size: 1.1em;
+    color: #393939;
+}
+
+.port_btn {
+    font-size: 0.7em;
+    text-align: justify-center;
+    width: 70px;
+    height: 35px;
+    background: #EBC985;
+    color: #393939;
+    margin-bottom: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+    border: none!important;
+}
+
+.portfolio_pills > ul > li > a:hover {
+    background: #FFF;
+}
+
+.portfolio_computer-title {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.portfolio_btn {
+    margin: 50px 0 140px;
+    width: 200px;
+    height: 45px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    background: #17C2A4;
+    color: #FFF;
+    box-shadow: 0 4px 0 #14A58C;
+}
+
+.portfolio_btn:hover {
+    background: #139c84;
+    color: #0a6564;
+}
+
+/*<!--FR6 End Giedrius-->*/
 
 #reviews hr {
     background-color: rgb(181, 61, 109);
