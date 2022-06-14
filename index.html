@@ -18,54 +18,62 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- FR1 Start Tauras-->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container py-3">
-            <img class="w-10 h-10" src="logoTransparentWithoutFrame.png" alt="logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link text-white px-3">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link text-white px-3">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#work" class="nav-link text-white px-3">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#blog" class="nav-link text-white px-3">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link text-white px-3">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container py-5 w-75">
+                <img src="images/logoTransparentWithoutFrame.png" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item px-1">
+                            <a href="#home"
+                                class="nav-link text-white px-4 active rounded-1 titillium-regular text-uppercase">Home</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a href="#about"
+                                class="nav-link text-white px-4 rounded-1 titillium-regular text-uppercase">About</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a href="#work"
+                                class="nav-link text-white px-4 rounded-1 titillium-regular text-uppercase">Work</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a href="#blog"
+                                class="nav-link text-white px-4 rounded-1 titillium-regular text-uppercase">Blog</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a href="#contact"
+                                class="nav-link text-white px-4 rounded-1 titillium-regular text-uppercase">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- FR1 End Tauras-->
-    <!-- FR2 Start Tauras-->
-    <section id="opening" class="slider">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-xl-10 offset-xl-1">
-                    <div class="slider-content text-center">
-                        <h1>Hi there! We are the new kids on the block
-                            and we build awesome websites and mobile apps.
-                        </h1>
-                        <button type="submit" class="btn py-3 rounded-1 titillium-regular">Work with us!</button>
+        </nav>
+        <!-- FR1 End Tauras-->
+        <!-- FR2 Start Tauras-->
+        <section id="opening">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1">
+                        <div class="text-center pt-5">
+                            <h2 class="text-light fs-1">Hi there! We are the new kids on the block
+                                and we build awesome websites and mobile apps.
+                            </h2>
+                            <button type="submit"
+                                class="btn fs-5 rounded-1 titillium-semi-bold border-0 text-uppercase">Work with
+                                us!</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </header>
     <!-- FR2 End Tauras-->
     <!-- FR3 Start Arnestas-->
     <section id="services">
@@ -290,10 +298,14 @@
             <div class="portfolio_pills text-center">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs portfolio_pills_ul mt-1 justify-content-center" role="tablist">
-                    <li role="presentation"><a href="#all" class="btn btn-sm btn-light mx-1 active port_btn" aria-controls="all" role="tab" data-toggle="tab">ALL</a></li>
-                    <li role="presentation"><a href="#web" class="btn btn-sm mx-1 port_btn" aria-controls="web" role="tab" data-toggle="tab">WEB</a></li>
-                    <li role="presentation"><a href="#apps" class="btn btn-sm mx-1 port_btn" aria-controls="apps" role="tab" data-toggle="tab">APPS</a></li>
-                    <li role="presentation"><a href="#icons" class="btn btn-sm mx-1 port_btn" aria-controls="icons" role="tab" data-toggle="tab">ICONS</a></li>
+                    <li role="presentation"><a href="#all" class="btn btn-sm btn-light mx-1 active port_btn"
+                            aria-controls="all" role="tab" data-toggle="tab">ALL</a></li>
+                    <li role="presentation"><a href="#web" class="btn btn-sm mx-1 port_btn" aria-controls="web"
+                            role="tab" data-toggle="tab">WEB</a></li>
+                    <li role="presentation"><a href="#apps" class="btn btn-sm mx-1 port_btn" aria-controls="apps"
+                            role="tab" data-toggle="tab">APPS</a></li>
+                    <li role="presentation"><a href="#icons" class="btn btn-sm mx-1 port_btn" aria-controls="icons"
+                            role="tab" data-toggle="tab">ICONS</a></li>
                 </ul>
                 <!-- Tab panes -->
                 <div class="tab-content">
@@ -351,7 +363,7 @@
             </div>
         </div>
     </section>
-<!--FR6 End Giedrius-->
+    <!--FR6 End Giedrius-->
     <!-- FR7 Start Augustinas-->
     <section id="reviews" class="pt-4">
         <div class="text-light pb-5">

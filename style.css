@@ -1,44 +1,38 @@
-/*FR1 Navbar Starts*/
+/*FR1 Navbar Starts Tauras*/
 .navbar {
-    background-color: #87509C;
+    background-color: rgb(135, 80, 156);
 }
-.navbar .container img{
+
+.navbar .active {
+    background-color: rgb(98, 56, 119);
+}
+
+.navbar a:hover {
+    background-color: rgb(98, 56, 119);
+}
+
+.navbar a {
+    font-size: 0.88rem;
+}
+
+.navbar .container img {
     width: 15%;
 }
-.navbar .nav-item {
-    text-transform: uppercase;
-    color: white;
-}
 /*FR1 Navbar Ends*/
-/*FR2 Starts*/
-#opening{
-    background-color: #87509C;
+/*FR2 Starts Tauras*/
+#opening {
+    background-color: rgb(135, 80, 156);
 }
-#opening div div div div{
-    padding-top: 8rem;
-    color: white;
-}
-#opening div div div div h1{
-    font-size: 42px;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    font-family: Titillium Web;
-    font-weight: 800;
-}
-#opening div div div div button{
-    text-transform: uppercase;
+
+#opening div div div div button {
     margin-top: 3rem;
     margin-bottom: 10rem;
-}
-#opening div div div div .btn{
-    background-color: #eb7d4b;
+    background-color: rgb(235, 125, 75);
+    padding: 1.4rem 5.6rem;
     color: white;
-    padding: 25px 0;
-    width: 295px;
-    font-size: 18px;
-    border-bottom: 4px solid #c86a40;
+    box-shadow: 0 3px rgb(200, 105, 64);
 }
-/*FR2 Ends*/
+/*FR2 Ends Tauras*/
 /* Services <!-- FR3 Start Arnestas--> */
 #services {
     padding-bottom: 100px;
