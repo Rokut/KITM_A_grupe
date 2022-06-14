@@ -328,7 +328,7 @@
     color: #0a6564;
 }
 /*<!--FR6 End Giedrius-->*/
-
+/* FR7 Start Augustinas */
 #reviews hr {
     background-color: rgb(181, 61, 109);
     color: rgb(181, 61, 109);
@@ -341,6 +341,11 @@
     background-color: rgb(215, 70, 129);
 }
 
+#reviews h2 {
+    letter-spacing: .2rem;
+    word-spacing: .2rem;
+}
+/* FR7 End Augustinas */
 /* Footer(F8) Start */
 .footer {
     background-color: rgb(60, 84, 154);
@@ -348,7 +353,6 @@
 }
 
 .footer h2 {
-    text-transform: uppercase;
     letter-spacing: .2rem;
     word-spacing: .2rem;
 }
