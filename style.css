@@ -52,51 +52,44 @@
 
 #services h2 {
     letter-spacing: .2rem;
+    word-spacing: .2rem;
 }
 /* Services end FR3 End Arnestas */
-
 /* <!-- FR4 Start Raminta--> */
- body {
-    height: 100vh;
-    background-color: rgb(232, 234, 252);
-    align-content: center;
-  }
+.team-grey {
+    color: rgb(60, 71, 99);
+}
+#team {
+    background-color: rgb(231, 242, 248);
+}
+
+#team .line {
+    background-color: rgb(200, 216, 231);
+    color: rgb(200, 216, 231);
+    width: 5rem;
+    border: 2px solid rgb(200, 216, 231);
+    opacity: 1;
+}
+
+#team h2 {
+    letter-spacing: .2rem;
+    word-spacing: .2rem;
+}
+
+#team .icons{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
   
-  main .under {
-    margin-left: 47%;
-    width: 6%;
-    align-items: center;
-    border: 2px solid rgb(144, 140, 140);
-  }
-  main .container{
-    margin-top: 5rem;
-    padding-bottom: 5rem;
-    
-  }
-  main img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-  main .grey{
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+#team .teams-images{
     width: 250px;
     height: 250px;
-    border-radius: 50%;
-  }
+}
 
-  main a{
-    text-decoration: none;
-  }
-
-  main h6{
+#team h6{
     color: rgb(73, 196, 238);
-  }
-
-  main p{
-    padding-top: 9px;
-  }
+}
 
 /* <!-- FR4 End Raminta--> */
 /* <!-- FR5 Start Roberta--> */
