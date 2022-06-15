@@ -1,188 +1,116 @@
-/*FR1 Navbar Starts*/
+/*FR1 Navbar Starts Tauras*/
 .navbar {
-    background-color: #87509C;
-}
-.navbar .container img{
-    width: 15%;
-}
-.navbar .nav-item {
-    text-transform: uppercase;
-    color: white;
-}
-/*FR1 Navbar Ends*/
-/*FR2 Starts*/
-#opening{
-    background-color: #87509C;
-}
-#opening div div div div{
-    padding-top: 8rem;
-    color: white;
-}
-#opening div div div div h1{
-    font-size: 42px;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    font-family: Titillium Web;
-    font-weight: 800;
-}
-#opening div div div div button{
-    text-transform: uppercase;
-    margin-top: 3rem;
-    margin-bottom: 10rem;
-}
-#opening div div div div .btn{
-    background-color: #eb7d4b;
-    color: white;
-    padding: 25px 0;
-    width: 295px;
-    font-size: 18px;
-    border-bottom: 4px solid #c86a40;
-}
-/*FR2 Ends*/
-/* Services <!-- FR3 Start Arnestas--> */
-#services {
-    padding-bottom: 100px;
-    background: #17C2A4;
+    background-color: rgb(135, 80, 156);
 }
 
-.services_h2 {
-    margin-top: 110px;
-    color: #FFF;
+.navbar .active {
+    background-color: rgb(98, 56, 119);
+}
+
+.navbar a:hover {
+    background-color: rgb(98, 56, 119);
+}
+
+.navbar a {
+    font-size: 0.88rem;
+}
+
+.navbar .container img {
+    width: 15%;
+}
+/*FR1 Navbar Ends*/
+/*FR2 Starts Tauras*/
+#opening {
+    background-color: rgb(135, 80, 156);
+}
+
+#opening div div div div button {
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    background-color: rgb(235, 125, 75);
+    padding: 1.4rem 5.6rem;
+    color: white;
+    box-shadow: 0 3px rgb(200, 105, 64);
+}
+/*FR2 Ends Tauras*/
+/* Services <!-- FR3 Start Arnestas--> */
+#services {
+    background: rgb(23, 194, 164);
 }
 
 .service_line {
-    background: #15AA90;
+    background-color: rgb(21, 165, 138);
+    color: rgb(21, 165, 138);
+    width: 5rem;
+    border: 2px solid rgb(21, 165, 138);
+    opacity: 1;
 }
 
-.iconbox_title {
-    margin: 20px 0 10px;
-    color: #FFF;
+#services img {
+    width: 80%;
 }
 
-.iconbox_desk {
-    margin: 0px 20px 15px;
-    color: #FFF;
+#services h2 {
+    letter-spacing: .2rem;
+    word-spacing: .2rem;
 }
-
-.services_subtitle {
-    margin-bottom: 60px;
-    color: #FFF;
-}
-
-/* Services end <!-- FR3 End Arnestas--> */
-
+/* Services end FR3 End Arnestas */
 /* <!-- FR4 Start Raminta--> */
- body {
-    height: 100vh;
-    background-color: rgb(232, 234, 252);
-    align-content: center;
-  }
+.team-grey {
+    color: rgb(60, 71, 99);
+}
+#team {
+    background-color: rgb(231, 242, 248);
+}
+
+#team .line {
+    background-color: rgb(200, 216, 231);
+    color: rgb(200, 216, 231);
+    width: 5rem;
+    border: 2px solid rgb(200, 216, 231);
+    opacity: 1;
+}
+
+#team h2 {
+    letter-spacing: .2rem;
+    word-spacing: .2rem;
+}
+
+#team .icons{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
   
-  main .under {
-    margin-left: 47%;
-    width: 6%;
-    align-items: center;
-    border: 2px solid rgb(144, 140, 140);
-  }
-  main .container{
-    margin-top: 5rem;
-    padding-bottom: 5rem;
-    
-  }
-  main img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-  main .grey{
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+#team .teams-images{
     width: 250px;
     height: 250px;
-    border-radius: 50%;
-  }
+}
 
-  main a{
-    text-decoration: none;
-  }
-
-  main h6{
+#team h6{
     color: rgb(73, 196, 238);
-  }
-
-  main p{
-    padding-top: 9px;
-  }
-
+}
 /* <!-- FR4 End Raminta--> */
 /* <!-- FR5 Start Roberta--> */
-#skills {
-    background: #fff;
-    padding-top: 7%;  
-    padding-bottom: 6%;   
+.skills-h2 {       
+    color: rgb(23, 43, 77);
+    letter-spacing: .2rem;
+    word-spacing: .2rem;
 }
 
-.skills2{       
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 2%;
-    color: #172b4d;  
+.line {
+    background-color: rgb(221, 232, 236);
+    color: rgb(221, 232, 236);
+    width: 5rem;
+    border: 2px solid rgb(221, 232, 236);
+    opacity: 1;
 }
 
-.line{
-    margin-left: 46%;
-    width: 10%;
-    align-items: center;
-    border: 2px solid rgba(128, 126, 126, 0.877);
+.skill-label {  
+    color: rgb(23, 43, 77);
 }
 
-.Description{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-bottom: 5%;
-    text-align: center;
-    font-size: 25px;  
-	color: #172b4d;
-	font-weight: 400;    
-    
-}
-.name1{  
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;                   
-    text-indent: 15mm; 
-    margin-top: 0.5cm;
-    font-weight: bold;
-    color: #172b4d;
-
-    
-}
-.name2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;                   
-    text-indent: 20mm; 
-    margin-top: 0.5cm;
-    font-weight: bold;
-    color: #172b4d; 
-}
-.name3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;                   
-    text-indent: 10mm; 
-    margin-top: 0.5cm;
-    font-weight: bold;
-    color: #172b4d; 
-}
-.name4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;                   
-    text-indent: 29mm; 
-    margin-top: 0.5cm;
-    font-weight: bold;
-    color: #172b4d;
-} 
-
-.progress-bar{
+.progress-bar {
     background-color: #e4f0f6;  
     position: relative;
     width: 150px;
@@ -191,7 +119,8 @@
     left: 2cm;
     
 }
-.inner-circle{
+
+.inner-circle {
    
     width: 120px;
     height: 120px;
@@ -204,22 +133,22 @@
     justify-content: center;
     align-items:center;
     color: #172b4d;
-    
-    
 }
-.spa{
+
+.spa {
     font-family: 'Titillium Web', sans-serif!important;
     height: 20px;
     font-size: 21px;
 
 }
+
 .circle {
-    
     stroke-dasharray: 410;
     stroke-dashoffset: 410;
     transform: rotate(-90deg);
     animation: bar-fill 8s linear forwards; 
 }
+
 .circle1 {
     stroke-dasharray: 410;
     stroke-dashoffset: 410;
@@ -227,12 +156,14 @@
     animation: bar-fill1 8s linear forwards;  
     
 }
+
 .circle2 {
     stroke-dasharray: 410;
     stroke-dashoffset: 410;
     transform: rotate(-90deg);
     animation: bar-fill2 8s linear forwards;  
 }
+
 .circle3 {    
     stroke-dasharray: 410;
     stroke-dashoffset: 410;
@@ -240,77 +171,80 @@
     animation: bar-fill3 8s linear forwards;  
 }
 
-
 @property --num {
     
     syntax: "<integer>";
     initial-value: 0;
     inherits: false;
     
-  }
+}
   
-  .nr1 {
+.nr1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: --num 5s;
     counter-set: num var(--num);
     font-size: 41px;
     color: #172b4d;
-  }
-  .nr1::after {
+}
+
+.nr1::after {
     content: counter(num);
-  }
-  .nr1:hover {      
-    
+}
+
+.nr1:hover {        
     --num: 90;
-  }
+}
 
-
-
-  .nr2 {
+.nr2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: --num 5s;
     counter-set: num var(--num);
     font-size: 41px;
     color: #172b4d;
-  }
-  .nr2::after {
+}
+
+.nr2::after {
     content: counter(num);
-  }
-  .nr2:hover {
+}
+
+.nr2:hover {
     --num: 75;
-  }
+}
 
-  .nr3 {
+.nr3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: --num 5s;
     counter-set: num var(--num);
     font-size: 41px;
     color: #172b4d;
-  }
-  .nr3::after {
+}
+  
+.nr3::after {
     content: counter(num);
-  }
-  .nr3:hover {
+}
+  
+.nr3:hover {
     --num: 70;
-  }
-  .nr4 {
+}
+
+.nr4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: --num 5s;
     counter-set: num var(--num);
     font-size: 41px;
     color: #172b4d;
-  }
-  .nr4::after {
-    content: counter(num);
-  }
-  .nr4:hover {
-    --num: 85;
-  }
+}
 
+.nr4::after {
+    content: counter(num);
+}
+
+.nr4:hover {
+    --num: 85;
+}
 
 @keyframes bar-fill {
     100% {
-        
         stroke-dashoffset: 41;
     }
 }
@@ -329,25 +263,24 @@
         stroke-dashoffset: 61.5;
     }
 }
-
 /* <!-- FR5 End Roberta--> */
 /* <!--FR6 Start Giedrius--> */
 #portfolio {
-    background: #FFDD99;
+    background: rgb(255, 221, 153);
 }
 
 .portfolio_h2 {
     letter-spacing: .2rem;
     word-spacing: 0.2rem;
-    color: #393939;
+    color: rgb(57, 57, 57);
 }
 
 .portfolio_line {
-    background: #E5C37F;
-    width: 85px;
-    height: 4px;
-    margin: 20px auto;
-    border: none!important;
+    background-color: rgb(229, 195, 127);
+    color: rgb(229, 195, 127);
+    width: 5rem;
+    border: 2px solid rgb(229, 195, 127);
+    opacity: 1;
 }
 
 .portfolio_subtitle {
@@ -357,7 +290,7 @@
 
 .port_btn {
     font-size: 0.7em;
-    text-align: justify-center;
+    text-align: center;
     width: 70px;
     height: 35px;
     background: #EBC985;
@@ -394,9 +327,8 @@
     background: #139c84;
     color: #0a6564;
 }
-
 /*<!--FR6 End Giedrius-->*/
-
+/* FR7 Start Augustinas */
 #reviews hr {
     background-color: rgb(181, 61, 109);
     color: rgb(181, 61, 109);
@@ -409,6 +341,11 @@
     background-color: rgb(215, 70, 129);
 }
 
+#reviews h2 {
+    letter-spacing: .2rem;
+    word-spacing: .2rem;
+}
+/* FR7 End Augustinas */
 /* Footer(F8) Start */
 .footer {
     background-color: rgb(60, 84, 154);
@@ -416,7 +353,6 @@
 }
 
 .footer h2 {
-    text-transform: uppercase;
     letter-spacing: .2rem;
     word-spacing: .2rem;
 }
