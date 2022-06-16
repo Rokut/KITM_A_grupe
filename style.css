@@ -387,17 +387,14 @@
     border:none;
     color: #0a6564;
     box-shadow: 0 4px 0 #14A58C;
-  }
+}
+
   .portfolio_btn:active {
     background-color: #ff0000;
     border:none;
     color: #fafafa;
 }
-/* portfolio_btn:visited {
-    background-color: #17C2A4;
-    color: #FFF;
-    box-shadow: 0 4px 0 #14A58C;    
-}  */
+
 /*<!--FR6 End Giedrius-->*/
 
 #reviews hr {
