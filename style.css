@@ -337,64 +337,67 @@
 }
 
 .portfolio_h2 {
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
     word-spacing: 0.2rem;
     color: #393939;
 }
 
 .portfolio_line {
     background: #E5C37F;
-    width: 85px;
-    height: 4px;
-    margin: 20px auto;
+    width: 5.5em;
+    height: 0.25em;
+    margin: 1.25em auto;
     border: none!important;
 }
 
 .portfolio_subtitle {
-    font-size: 1.1em;
     color: #393939;
 }
 
 .port_btn {
-    font-size: 0.7em;
-    text-align: justify-center;
-    width: 70px;
-    height: 35px;
+    color: #393939!important;
+    padding-top: 0.5em ;
+    width: 4.7em;
+    height: 2.5em;
+    margin-bottom: 3.125em;
     background: #EBC985;
-    color: #393939;
-    margin-bottom: 50px;
-    font-weight: bold;
-    padding-top: 10px;
     border: none!important;
 }
 
-.portfolio_pills > ul > li > a:hover {
+.portfolio_btns > ul > li > a:hover {
     background: #FFF;
 }
 
-.portfolio_computer-title {
-    margin-top: 10px;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-    font-size: 0.7em;
-}
-
 .portfolio_btn {
-    margin: 50px 0 140px;
-    width: 200px;
-    height: 45px;
-    font-size: 0.8em;
-    text-transform: uppercase;
-    background: #17C2A4;
+    margin: 3.1em 0 8.8em 0;
+    background-color: #17C2A4;
     color: #FFF;
     box-shadow: 0 4px 0 #14A58C;
+    border: none;
 }
-
-.portfolio_btn:hover {
-    background: #139c84;
+ .portfolio_btn:hover {
+    background-color: #139c84;
+    border:none;
     color: #0a6564;
-}
+    box-shadow: 0 4px 0 #14A58C;
+} 
 
+.portfolio_btn:focus{
+    background-color: #139c84;
+    border:none;
+    color: #0a6564;
+    box-shadow: 0 4px 0 #14A58C;
+  }
+  .portfolio_btn:active {
+    background-color: #ff0000;
+    border:none;
+    color: #fafafa;
+}
+/* portfolio_btn:visited {
+    background-color: #17C2A4;
+    color: #FFF;
+    box-shadow: 0 4px 0 #14A58C;    
+}  */
 /*<!--FR6 End Giedrius-->*/
 
 #reviews hr {
